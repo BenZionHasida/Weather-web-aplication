@@ -10,7 +10,7 @@ async function displayDegrees(location) {
     let spanElement = temperatureSpanList[index];
     let dailyMax = maxList[index];
     let dailyMin = minList[index];
-    let displaycontent = dailyMin + "°/" + dailyMax + "°";
+    let displaycontent = Math.floor(dailyMin) + "° / " + Math.floor(dailyMax) + "°";
     spanElement.textContent = displaycontent;
   }
 }
