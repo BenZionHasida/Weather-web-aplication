@@ -6,7 +6,7 @@ async function displayDegrees(location) {
   let maxList = weatherData[0];
   let minList = weatherData[1];
   temperatureSpanList = document.querySelectorAll(".degrees");
-  for (let index = 0; index < temperatureSpanList.length; index++) {
+  for (let index = 0; index   < temperatureSpanList.length; index++) {
     let spanElement = temperatureSpanList[index];
     let dailyMax = maxList[index];
     let dailyMin = minList[index];
